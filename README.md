@@ -39,3 +39,4 @@ Very often, software developers use Git via the terminal, or the command line. T
     * Use the `git push` command to copy your local changes to the GitHub remote repository.
 
     * Go to your Github repository to see your changes.
+
