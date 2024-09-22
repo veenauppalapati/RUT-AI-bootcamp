@@ -85,6 +85,9 @@ Tuples
 
 * `.isdigit()` - returns ture if it's an int else False
 
+## Identity operators 
+
+
 
 
 

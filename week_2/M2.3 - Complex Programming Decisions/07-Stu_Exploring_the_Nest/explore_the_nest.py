@@ -72,18 +72,25 @@ birds_dictionaries = [
 ]
 
 # Print out the data about the 4th bird in birds_list
-
+for bird in birds_list:
+    print(bird[3])
 
 # Calculate the total weight (kg) of all the birds in the birds list
+print(f"total weight: {(sum(birds_list[2])) / 1000} kgs")
 
-
+ratios = []
 # Loop through the birds_dictionaries list
+for bird in birds_dictionaries:
 
     # Print the names of the birds and their lifespans from the birds_dictionary
-
+    print(f"{bird['name']} lasts for {bird['lifespan']} years.")
 
     # Calculate and print out the size to weight ratio
+    size_to_weight = round(bird['size (cm)'] / bird['weight (g)'], 2)
+    ratios.append(size_to_weight)
 
+    print(f"size to weight ratio for {bird['name']} is {size_to_weight:.2f}")
 
+print(f"max: {max(ratios)} | min: {min(ratios)}")
 # Highest size to weight ratio: 
 # Lowest size to weight ratio: 
