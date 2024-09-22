@@ -68,11 +68,14 @@ while True:
 
     # Print the options to choose from menu headings (all the first level 
     # dictionary items in menu).
-
+    for category in menu.keys():
 
         # Store the menu category associated with its menu item number
+        menu_items[i] = category     
 
         # Add 1 to the menu item number
+        i += 1
+
 
 
     # Get the customer's input
@@ -100,20 +103,26 @@ while True:
             # Initialize a menu item counter
             item_counter = 1
             # Print out the menu options from the menu_category_name
-
+            for key, value in menu[menu_category_name].items():
                 # Check if the menu item is a dictionary to handle differently
+                if type(value) is dict:
 
                     # Iterate through the dictionary items
+                    for key2, value2 in value.items():
 
                         # Print the menu item
+                        print(f"{key} | {key2}: {value2}")
 
                         # Add 1 to the item_counter
+                        item_counter += 1
 
                 # Else the menu item is not a dictionary
 
                     # Print the menu item
+                    print(f"menu item: {value}")
 
                     # Add 1 to the item_counter
+                    item_counter += 1
 
             
             print(menu_dashes)
