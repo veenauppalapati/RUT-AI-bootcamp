@@ -1,6 +1,6 @@
 # Welcome to Rutgers AI Bootcamp! 🎉🤖
 
-Welcome to the official repository for the **Rutgers AI Bootcamp**. This is where you'll find all the magic ✨—our weekly assignments, project instructions, and other resources to fuel your AI journey throughout the course!
+Welcome to the official repository for the **Rutgers AI Bootcamp**. This is where you'll find all the magic ✨— our weekly assignments, project instructions, and other resources to fuel your AI journey throughout the course!
 
 ---
 
@@ -43,7 +43,7 @@ Each week, we'll add a folder like `week_1`, `week_2`, etc. Head to the current 
 No worries! We’re all here to learn, and this is a judgment-free zone. 💻🐣
 
 - **Slack:** Drop your questions in our class Slack channel (#help-me-out).
-- **Office Hours:** Available weekly (check your course schedule for times).
+- **Office Hours:** Available weekly 45 minutes before class (@545pm EST) and 30 minutes after class (@930pm EST).
 - **Ask a Peer:** Chances are, someone else has the same question! Teamwork makes the AI dream work. 💪🤖
 
 ---
